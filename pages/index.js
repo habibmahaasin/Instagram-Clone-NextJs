@@ -74,7 +74,7 @@ export default function Home({userData}){
                         />
                     )
                 })}
-                <span className={`${styles.copyrightig}`}>© 2023 INSTAGRAM CLONE FROM MAHAASIN</span>
+                <span className={`${styles.copyrightig}`}>© 2023 PROJECT-001 FROM MAHAASIN</span>
             </div>
         </section>
     )}
