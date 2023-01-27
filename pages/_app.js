@@ -14,7 +14,7 @@ function MyApp({
     return Component.getLayout(
       <>
         <Head>
-          <title>Instagram Clone Project</title>
+          <title>Project 001 - Bukan Phising</title>
           <link rel="shortcut icon" href="/static/favicon.ico" />
         </Head>
         <SessionProvider session={session}>
@@ -28,7 +28,7 @@ function MyApp({
     <>
       <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' />
       <Head>
-        <title>Instagram Clone Project</title>
+        <title>Project 001 - Bukan Phising</title>
         <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head>
       <SessionProvider session={session}>
