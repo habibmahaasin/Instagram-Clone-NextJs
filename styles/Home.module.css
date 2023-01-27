@@ -1,0 +1,228 @@
+.iconProfile{
+    border: 3px solid white;
+}
+
+.backgroundIG{
+    background-image: linear-gradient(225deg, #C913B9, #F9373F, #FECD00);
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 80%;
+    margin-left: 10px;
+}
+
+.storyProfileText{
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    margin-left: 10px;
+}
+
+.horizontalSlider  {
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.wrapperContent{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+.backgroundAuthor{
+    background-image: linear-gradient(225deg, #C913B9, #F9373F, #FECD00);
+    display: inline-block;
+    padding: 2px;
+    border-radius: 80%;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.authorImg{
+    border: 3px solid white;
+}
+
+.authorName{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+.authorName:hover{
+    color: rgb(91, 91, 91);
+}
+
+.profileView{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.profileView .profileName{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.otherProfileView{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.otherProfileView .otherProfileName{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.fullname,.followedby{
+    font-size: 12px;
+}
+
+.followedby{
+    margin-top: -2px;
+    color: #8E8E8E;
+}
+
+.reactionIcon{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.reactionIcon2{
+    font-size: 26px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.reactionIcon3{
+    font-size: 26px;
+    cursor: pointer;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.reactionIcon:hover,.reactionIcon2:hover, .reactionIcon3:hover {
+    color: rgb(91, 91, 91);
+}
+
+.reactionIcoWrap .reactionIcon{
+    margin-right: 15px;
+}
+
+.likes{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -18px;
+}
+
+.author{
+    margin-top: -45px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.author span{
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.spanComment{
+    font-size: 14px;
+    margin-top: -25px;
+    font-weight: normal;
+    color: #8E8E8E;
+}
+
+.spanTime{
+    font-size: 10px;
+    margin-top: -35px;
+    font-weight: normal;
+    color: #8E8E8E;
+}
+
+.inputComment{
+    margin-top: -20px;
+}
+
+.inputComment input{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px 15px;
+    border-top: 1px solid rgb(219, 219, 219);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    font-size: 12px;
+}
+
+.inputComment input:focus{
+    border-top: 1px solid rgb(219, 219, 219);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.sendComment {
+    margin-top: 4px;
+    padding-top: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0095f6;
+    font-size: 14px;
+    border-top: 1px solid rgb(219, 219, 219);
+}
+
+.sendComment:hover{
+    color: #333;
+}
+
+.emotComment{
+    margin-top: 4px;
+    border-top: 1px solid rgb(219, 219, 219);
+    padding-top: 4px;
+    padding-left: 15px;
+    font-size: 45px;
+}
+
+.btnFunc{
+    margin-top: 30px;
+}
+
+.btnfollow{
+    margin-top: 5px;
+}
+
+.btnFunc .linkFunc, .followfunc{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0095f6;
+}
+
+.breaktitle{
+    font-size: 14px;
+    font-weight: bold;
+    color: #8E8E8E;
+}
+
+.break{
+    margin-top: 12px;
+}
+
+.break .linkFunc{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.copyrightig{
+    font-size: 12px;
+    color: #c7c7c7;
+}
