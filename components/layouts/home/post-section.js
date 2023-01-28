@@ -40,16 +40,18 @@ function PostList(props) {
                         {props.username}
                     </Link>
                 </div>
-                <div className="image-container">
-                    <Image
-                        src={`${props.imagePost}`}
-                        className="image"
-                        width="1000"
-                        priority
-                        height="1000"
-                        alt="instagram"
-                    />
-                </div>
+                <Link href={`/post/${props.post_id}`}>
+                    <div className="image-container">
+                        <Image
+                            src={`${props.imagePost}`}
+                            className="image"
+                            width="1000"
+                            priority
+                            height="1000"
+                            alt="instagram"
+                        />
+                    </div>
+                </Link>
                 <div className='reaction-btn d-flex justify-content-between p-3'>
                     <div className={`${styles.reactionIcoWrap}`}>
                         {btnlike}

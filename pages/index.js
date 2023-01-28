@@ -29,6 +29,7 @@ export default function Home({userData}){
                     return(
                         <PostList 
                             key={posts.id}
+                            post_id = {posts.id}
                             username={posts.owner.lastName}
                             imagePost = {posts.image}
                             likes={posts.likes}
