@@ -46,7 +46,13 @@ a {
   }
 }
 
-@media screen and (max-width: 885px) {
+@media screen and (min-width:1263px){
+  #sidebar-min{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 970px) {
   .secondary-wrapper-container{
     display: none;
     margin-left: 0 !important;
@@ -65,6 +71,21 @@ a {
   .img-col{
     display: none;
   }
+}
+
+@media screen and (max-width : 640px) {
+  #sidebar-min{
+    display: none;
+  }
+  .main-wrapper-container{
+    margin-top: 65px;
+  }
+}
+
+@media screen and (min-width : 640px) {
+  #sidebar-mobile{
+    display: none;
+  } 
 }
 /* LOGIN PAGE */
 
@@ -228,10 +249,44 @@ a {
   border-right: 1px solid rgb(219, 219, 219);
 }
 
+#sidebar-min{
+  width: 65px;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 10px;
+  height: 100vh;
+  z-index: 999;
+  background: #fff;
+  color: #333;
+  transition: all 0.3s;
+  border-right: 1px solid rgb(219, 219, 219);
+}
+
 .sidebar-menu ul li{
   list-style: none;
   margin-left: -25px;
   font-size: 18px;
+}
+
+.sidebar-min-menu ul li{
+  list-style: none;
+  font-size: 48px;
+  margin-left: 20px;
+}
+
+.sidebar-min-menu .icon-menu{
+  font-size: 48px;
+  transition: .5s ease;
+}
+
+.sidebar-min-menu .icon-menu:hover{
+  transform: scale(1.1);
+}
+
+
+.icon-logo{
+  font-size: 34px;
 }
 
 .icon-menu{
@@ -262,4 +317,23 @@ a {
 .link-menu:hover{
   color: black;
 }
+
+#top-menu-mobile{
+  height: 56px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+#bottom-menu-mobile{
+  height: 56px;
+  border-top: 1px solid rgb(219, 219, 219);
+}
+
+.search-input{
+  margin-right: 20px;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
 /* END SIDEBAR */

@@ -57,7 +57,7 @@ export default function Home({userData}){
                 </div>
                 <div className='wrapper-profile-user d-flex justify-content-between align-middle'>
                     <div className={`${styles.breaktitle} pb-2 mt-3 d-flex`}>
-                        <p>Saran Untuk Andaa</p>
+                        <p>Saran Untuk Anda</p>
                     </div>
                     <div className={`${styles.break}`}>
                         <Link href={'#'} className={`${styles.linkFunc}`}>
@@ -65,7 +65,7 @@ export default function Home({userData}){
                         </Link>
                     </div>
                 </div>
-                {userData.slice(0,3).map(posts => {
+                {userData.slice(0,5).map(posts => {
                     return(
                         <RecommendationAccount 
                             key={posts.id}
